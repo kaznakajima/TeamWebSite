@@ -1,5 +1,5 @@
 #warp{
-    width: 960px;
+    width: 1060px;
     margin: 0px auto;
 }
 /*ページ全体の設定*/ 
@@ -17,33 +17,34 @@
 /*ヘッダー*/ 
 header{
     border: dashed 1px #999;
+    width: 100%;
 }
 /*左側のメニュー*/ 
 #leftnavi{
     float:left;
     border: dashed 1px #999;
     margin-left: -100%;
-    width: 180px;
-    height: 500px;
+    width: 200px;
+    height: 800px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 /*右側のメニュー*/ 
 #rightnavi{
     float:left;
-    width: 180px;
-    height: 500px;
+    width: 200px;
+    height: 800px;
     border: dashed 1px #999;
-    margin-left: -182px;
+    margin-left: -202px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 /*本文の設定*/ 
 #contents{
     float: left;
-    width: 580px;
+    width: 640px;
     border: dashed 1px #999;
-    margin-left: 190px;
+    margin-left: 210px;
     margin-right: 75px;
     margin-top: 10px;
     text-align: left;
@@ -52,11 +53,45 @@ header{
 }
 /*メニューボックスの設定*/ 
 .contents_boxmenu{
-    padding: 0.5em 1em;
-    margin: 2em 0;
+    padding: 0.1em 0.1em;
+    margin: 0.5em 0;
     color: black;
     background-color: antiquewhite;
     border-top: solid 10px #ffa500
+}
+
+.contents_boxmenu h4{
+    padding: 0.5em;
+    padding-right 3em: 
+    color: #494949;
+    background: antiquewhite;
+    border-left: solid 5px #ffaf58;
+}
+
+.contents_boxmenu ul,ol{
+    padding: 0.1em 1em 0.1em 1.5em;
+    position: relative;
+}
+.contents_boxmenu ul li,ol li{
+    line-height: 1.25;
+    padding: 0.25em 0;
+    padding-right: 1.5em;
+}
+
+table{
+    border-collapse: collapse;
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th,table td{
+    border: solid 1px black;
+    text-align: center;
+}
+
+th{
+    background: lightgray;
 }
 
 .contents_box p{
@@ -87,6 +122,53 @@ h3.subtitle{
     padding-left: 1.1em;
     color: black;
 }
+
+ul#menu{
+    width: auto;
+    padding-left: 1px;
+    height: 42px;
+    background-color #eeeeee;
+    font-weight: bold;
+}
+
+li#menu01,li#menu02,li#menu03,li#menu04,li#menu05{
+    float: left;
+    display: inline;
+    list-style: none;
+    background-repeat: no-repeat;
+}
+
+li#menu01{
+    width: 216px; height: 42px;
+    background-color: azure;
+}
+
+li#menu02{
+    width: 206px; height: 42px;
+    background-color: floralwhite;
+}
+
+li#menu03{
+    width: 206px; height: 42px;
+    background-color: aliceblue;
+}
+
+li#menu04{
+    width: 206px; height: 42px;
+    background-color: oldlace;
+}
+
+li#menu05{
+    width: 216px; height: 42px;
+    background-color: azure;
+}
+
+li#menu a{
+    display: block;
+    height: 42px; padding-top: 4px;text-align: center;
+    text-decoration: none;
+}
+
 /*フッター*/ 
 footer{
     width: 100%;
