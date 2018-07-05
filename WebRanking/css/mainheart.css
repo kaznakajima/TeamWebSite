@@ -1,5 +1,5 @@
 #warp{
-    width: 1060px;
+    width: 1200px;
     margin: 0px auto;
 }
 /*ページ全体の設定*/ 
@@ -32,17 +32,17 @@ header{
 /*右側のメニュー*/ 
 #rightnavi{
     float:left;
-    width: 200px;
+    width: 180px;
     height: 800px;
     border: dashed 1px #999;
-    margin-left: -202px;
+    margin-left: -182px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 /*本文の設定*/ 
 #contents{
     float: left;
-    width: 640px;
+    width: 800px;
     border: dashed 1px #999;
     margin-left: 210px;
     margin-right: 75px;
