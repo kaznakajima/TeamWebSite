@@ -2,16 +2,40 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-    <title>和也の部屋</title>
-  <link rel="stylesheet" href="css/mainheart.css">
+  <title>heart</title>
+  <link rel="stylesheet" href="css/Nakajima_main.css">
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.cookie.js"></script>
   <script type="text/javascript" src="js/modalConfirm.js"></script>
    <body>
     <div id="warp">
-    <header><h1>ヘッダー</h1></header>
+    <header><h1>HEART</h1></header>
+    <ul id="menu">
+        <li id="menu01"><a href="https://www.yahoo.co.jp/">ホーム</a></li>    
+        <li id="menu02"><a href="https://www.google.com/">ニュース</a></li>  
+        <li id="menu03"><a href="http://www.denpa.ac.jp/">ランキング</a></li>  
+        <li id="menu04"><a href="index.html">リンク</a></li>  
+        <li id="menu05"><a href="https://www.goo.ne.jp/">お問い合わせ</a></li>  
+    </ul>
     <div id="maincontents">
         <div id="contents">
+        <div class="contents_maindoc">
+        <div class="modal" style="display: block">
+            <p>このサイトは成人向けの情報を含みますので、<br>
+            18歳未満の方の閲覧を固くお断りいたします。</p>
+            <a class="close_modal">
+            <img src="textures/enter.png" width="140" height="70" alt="enter">
+            </a>
+            <img src="textures/confirm.png" width="70" height="70">
+            <a href="https://www.google.co.jp/">
+            <img src="textures/leave.png" width="140" height="70">
+            </a>
+            </div>
+        <!-- 
+          ここから本文を書く
+          見出しを出したい場合は h3 class="headline"を
+          サブタイトルを出したいときは h3 class="subtitle"を記入
+        -->
         <h3 class="headline">個人的推しのエロゲーランキング</h3>
             <h3 class="subtitle">1位 新妻Lovely×Cation (hibikiworks)</h3>
             <img src="Nakajima/Lovely%C3%97Cation.jpg", width=320px>
@@ -57,17 +81,26 @@
                 最近のエロゲーは、公式サイトに<strong>無料体験版</strong>があるので、<br>
                 興味がわいた方は、まずは体験版をプレイしてみてはどうでしょうか。<br>
             </p>
+        </div> 
         </div>
+            <footer><h2>ふったー</h2></footer>
     </div>
     <div id="leftnavi">
+        <div class="contents_boxmenu">
+        <h4>その他の記事</h4>
         <ul>
             <li><a class="link_url" href="Nakajima_CharacterRank.html">個人的エロゲーヒロインランキング</a></li><br>
         </ul>
+        </div>
     </div>
-        <div id="rightnavi">
-        <h2>右テキストテキストテキスト</h2>    
+    <div id="rightnavi">
+        <h2>めにゅ～２</h2>    
+        <div class="contents_boxmenu">
+        <p>メニュー内容１</p>
+        <p>メニュー内容２</p>
+        <p>メニュー内容３</p>
+        </div>
     </div>
-    <footer><h2>ふったー</h2></footer>
     </div>    
    </body>
 </head>
