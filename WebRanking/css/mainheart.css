@@ -56,16 +56,16 @@ header{
     padding: 0.1em 0.1em;
     margin: 0.5em 0;
     color: black;
-    background-color: lightpink;
-    border-top: solid 10px #ffa500
+    background-color: #ffb7c1;
+    border-top: solid 10px #b7fff5
 }
 
 .contents_boxmenu h4{
     padding: 0.5em;
     padding-right 3em: 
     color: black;
-    background: antiquewhite;
-    border-left: solid 5px #ffaf58;
+    background: #ffb7c1;
+    border-left: solid 5px #b7fff5;
 }
 
 .contents_boxmenu ul,ol{
