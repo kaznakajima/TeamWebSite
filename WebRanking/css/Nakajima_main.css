@@ -105,6 +105,11 @@ a.link_button:hover {
   text-decoration: none;/*下線を消す*/
 }
 
+/*他htmlのリンク先*/
+a.link_url{
+    position:relative;
+}
+
 /*フッター*/ 
 footer{
     width: 100%;
