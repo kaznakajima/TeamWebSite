@@ -124,9 +124,10 @@ h3.subtitle{
 }
 
 ul#menu{
-    width: auto;
-    padding-left: 1px;
-    height: 42px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    height: 42px;    
     background-color #eeeeee;
     font-weight: bold;
 }
