@@ -16,8 +16,8 @@
 }
 /*ヘッダー*/ 
 header{
-    border: dashed 1px #999;
-    width: 100%;
+    /*border: dashed 1px #999;
+    /*width: 100%;*/
 }
 /*左側のメニュー*/ 
 #leftnavi{
@@ -187,4 +187,9 @@ html,body{
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 display: block;
+}
+
+p.a{
+    height 200px;
+    width 1060px;
 }
