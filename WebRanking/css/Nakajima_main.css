@@ -9,6 +9,7 @@
     height: auto;
     margin-bottom: -60px;
     float: left;
+    background-color:white;
 }
 
 * html #maincontents{
@@ -19,6 +20,10 @@ header{
     border: dashed 1px #999;
     width: 100%;
 }
+/*ボディ*/
+body{
+    background-color:antiquewhite;
+}
 /*左側のメニュー*/ 
 #leftnavi{
     float:left;
@@ -28,6 +33,7 @@ header{
     height: 800px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color:white;
 }
 /*右側のメニュー*/ 
 #rightnavi{
@@ -38,6 +44,7 @@ header{
     margin-left: -182px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color:white;
 }
 /*本文の設定*/ 
 #contents{
@@ -56,7 +63,7 @@ header{
     padding: 0.1em 0.1em;
     margin: 0.5em 0;
     color: black;
-    background-color: #ffb7c1;
+    background-color:whitesmoke;
     border-top: solid 10px #b7fff5
 }
 
