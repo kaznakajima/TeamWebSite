@@ -1,0 +1,216 @@
+#warp{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#maincontents{
+    width: 100%;
+    float: left;
+    position: relative;
+    !important; height: 100%; min-height: 100%;
+}
+
+header{
+    border: dashed 1px #999;
+}
+
+#leftnavi{
+    float:left;
+    border: dashed 1px #999;
+    margin-left: -100%;
+    width: 180px;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#rightnavi{
+    float:left;
+    width: 180px;
+    height: 500px;
+    border: dashed 1px #999;
+    margin-left: -182px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contents{
+    float: left;
+    width: 580px;
+    border: dashed 1px #999;
+    margin-left: 190px;
+    margin-right: 75px;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contents_box{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: black;
+    background-color: antiquewhite;
+    border-top: solid 10px #ffa500
+}
+
+.contents_box p{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    text-align: center;
+}
+h3 {
+position: relative;
+padding: 0.6em;
+background: -webkit-repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+background: repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px,#ffe4b1 3px, #ffe4b1 8px);
+border-radius: 7px;
+}
+
+h3:after {
+position: absolute;
+content: '';
+top: 100%;
+left: 30px;
+border: 15px solid transparent;
+border-top: 15px solid #ffebbe;
+width: 0;
+height: 0;
+}
+
+.ribbon3 {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 18px;
+    background: #acd879;
+    color: #FFF;
+    box-sizing: border-box;
+}
+
+.ribbon3 h4 {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 30px;
+    border-top: dashed 2px rgba(255, 255, 255, 0.5);
+    border-bottom: dashed 2px rgba(255, 255, 255, 0.5);
+    line-height: 42px;
+}
+
+.ribbon3:before, .ribbon3:after{
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+}
+
+.ribbon3:before{/*左の山形*/
+  top: 0;
+  left: 0;
+  border-width: 30px 0px 30px 15px;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
+}
+
+.ribbon3:after{/*右の山形*/
+  top: 0;
+  right: 0;
+  border-width: 30px 15px 30px 0px;
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+}
+
+.box1{
+    position: relative;
+    background: #fff0cd;
+    box-shadow: 0px 0px 0px 5px #fff0cd;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #454545;
+}
+.box1:after{
+    position: absolute;
+    content: '';
+    right: -6px;
+    top: -6px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.hidden_box {
+    margin: 2em 0;/*前後の余白*/
+    padding: 0;
+}
+
+/*ボタン装飾*/
+.hidden_box label {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 6px #ff7c5c;/*左線*/
+    color: #ff7c5c;/*文字色*/
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+
+/*ボタンホバー時*/
+.hidden_box label:hover {
+    background: #efefef;
+}
+
+/*チェックは見えなくする*/
+.hidden_box input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.hidden_box .hidden_show {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
+}
+
+.square_btn{
+ 
+}
+
+html{
+    height: 100%;
+    height: 100%;
+}
+
+footer{
+    clear: both;
+    border: dashed 1px #999;
+}
+
+body{
+    text-align: center;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
