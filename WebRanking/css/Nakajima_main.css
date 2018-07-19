@@ -57,6 +57,9 @@ body{
     text-align: left;
     margin-bottom: 10px;
     padding-bottom: 60px;
+    background-color: whitesmoke;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #F9F9F9), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #F9F9F9),color-stop(.75, #F9F9F9), color-stop(.75, transparent),to(transparent));
+-webkit-background-size: 7px 7px;
 }
 /*メニューボックスの設定*/ 
 .contents_boxmenu{
@@ -146,7 +149,7 @@ h3.headline{
 }
 /*各項目のサブタイトル*/ 
 h3.subtitle{
-    background-color: whitesmoke;
+     background-color: gainsboro;
     padding: 0.5em;
     padding-left: 1.1em;
     color: black;
