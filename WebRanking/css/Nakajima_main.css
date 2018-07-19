@@ -9,7 +9,6 @@
     height: auto;
     margin-bottom: -60px;
     float: left;
-    background-color:white;
 }
 
 * html #maincontents{
@@ -17,41 +16,49 @@
 }
 /*ヘッダー*/ 
 header{
-    border: dashed 1px #999;
+    float: left;
     width: 100%;
+    background: linear-gradient(#afeeee, #ffffff);
 }
-/*ボディ*/
-body{
-    background-color:antiquewhite;
+
+#headimg{
+    background-image: url(../textures/title3.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120px;
 }
+
+header p{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
 /*左側のメニュー*/ 
 #leftnavi{
     float:left;
-    border: dashed 1px #999;
     margin-left: -100%;
     width: 200px;
-    height: 800px;
+    height: 1200px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color:white;
 }
 /*右側のメニュー*/ 
 #rightnavi{
     float:left;
-    width: 180px;
-    height: 800px;
-    border: dashed 1px #999;
-    margin-left: -182px;
+    width: 170px;
+    height: 1200px;
+    margin-left: -170px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color:white;
 }
 /*本文の設定*/ 
 #contents{
     float: left;
     width: 800px;
-    border: dashed 1px #999;
-    margin-left: 210px;
+    margin-left: 215px;
     margin-right: 75px;
     margin-top: 10px;
     text-align: left;
@@ -66,16 +73,16 @@ body{
     padding: 0.1em 0.1em;
     margin: 0.5em 0;
     color: black;
-    background-color:whitesmoke;
-    border-top: solid 10px #b7fff5
+    background-color: antiquewhite;
+    border-top: solid 10px #ffa500
 }
 
 .contents_boxmenu h4{
     padding: 0.5em;
     padding-right 3em: 
-    color: black;
-    background: #ffb7c1;
-    border-left: solid 5px #b7fff5;
+    color: #494949;
+    background: antiquewhite;
+    border-left: solid 5px #ffaf58;
 }
 
 .contents_boxmenu ul,ol{
@@ -86,28 +93,6 @@ body{
     line-height: 1.25;
     padding: 0.25em 0;
     padding-right: 1.5em;
-}
-
-/*公式サイトへのリンク*/
-a.link_button {
-  font-weight: bold;/*太字に*/
-  text-decoration: none;/*下線消す*/
-  background: skyblue;/*背景を水色に*/
-  color:white;/*文字を白に*/
-  padding:5px 10px;/*内側の余白*/
-  border-radius: 20px;/*角を丸くする*/
-  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
-}
-
-/*以下カーソルを当てたとき*/
-a.link_button:hover {
-  background: silver;/*背景色をシルバーに*/
-  text-decoration: none;/*下線を消す*/
-}
-
-/*他htmlのリンク先*/
-a.link_url{
-    position:relative;
 }
 
 table{
@@ -149,64 +134,113 @@ h3.headline{
 }
 /*各項目のサブタイトル*/ 
 h3.subtitle{
-     background-color: gainsboro;
+    background-color: gainsboro;
     padding: 0.5em;
     padding-left: 1.1em;
     color: black;
 }
 
+/*公式サイトへのリンク*/
+a.link_button {
+    width: 100px;
+    height: auto;
+  font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: skyblue;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+}
+
+/*以下カーソルを当てたとき*/
+a.link_button:hover {
+  background: silver;/*背景色をシルバーに*/
+  text-decoration: none;/*下線を消す*/
+}
+
+/*他htmlのリンク先*/
+a.link_url{
+    width: 130px;
+    height: auto;
+    font-weight: bold;/*太字に*/
+  text-decoration: none;/*下線消す*/
+  background: skyblue;/*背景を水色に*/
+  color:white;/*文字を白に*/
+  padding:5px 10px;/*内側の余白*/
+  border-radius: 20px;/*角を丸くする*/
+  font-family: 'Avenir','Arial';/*フォントをいい感じに*/
+    position:relative;
+}
+
 ul#menu{
-    width: auto;
-    padding-left: 1px;
+    width: 100%;
+    padding: inherit;
+    margin: 0 auto;
+    text-align: center;
     height: 42px;
     background-color #eeeeee;
     font-weight: bold;
+    list-style-type: none;
 }
 
-li#menu01,li#menu02,li#menu03,li#menu04,li#menu05{
+li#menu01,li#menu02,li#menu03,li#menu04,li#menu05,li#menustart,li#menuend{
+    width: 100%;
     float: left;
     display: inline;
     list-style: none;
     background-repeat: no-repeat;
+    background: #668ad8;
+}
+
+li a{
+    color: #fff;
+    padding: inherit;
+	display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 240px; height: 42px;
+    border: solid;
+}
+
+li a:hover{
+    background-color: #113366;
+}
+
+li#menustart{
+}
+
+li#menuend{
+    
 }
 
 li#menu01{
-    width: 216px; height: 42px;
-    background-color: azure;
+    width: 240px; height: 42px;
 }
 
 li#menu02{
-    width: 206px; height: 42px;
-    background-color: floralwhite;
+    width: 240px; height: 42px;
 }
 
 li#menu03{
-    width: 206px; height: 42px;
-    background-color: aliceblue;
+    width: 240px; height: 42px;
 }
 
 li#menu04{
-    width: 206px; height: 42px;
-    background-color: oldlace;
+    width: 240px; height: 42px;
 }
 
 li#menu05{
-    width: 216px; height: 42px;
-    background-color: azure;
-}
-
-li#menu a{
-    display: block;
-    height: 42px; padding-top: 4px;text-align: center;
-    text-decoration: none;
+    width: 240px; height: 42px;
 }
 
 /*フッター*/ 
 footer{
     width: 100%;
     height: 60px;
+    padding-top: 30px;
     clear: both;
-    border: dashed 1px #999;
+    background-color: darkgray;
 }
 /*HTML本体の設定*/ 
 html,body{
@@ -216,14 +250,6 @@ html,body{
     padding: 0;
     text-align: center;
 }
-
-.modal { position:fixed; display:none; z-index:9999; top:30%; left:50%; width:400px; height:200px; margin:-120px 0 0 -220px; padding:20px; text-align:center; border: 1px solid #FFF; border-radius: 10px; }
-
-
-.modal p { margin-bottom:10px; color: white}
-
-.modal a { cursor:pointer; }
-
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 display: block;
