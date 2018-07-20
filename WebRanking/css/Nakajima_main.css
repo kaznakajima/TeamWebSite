@@ -126,7 +126,7 @@ th{
 
 /*見出し用ボックス*/ 
 h3.headline{
-    background-color: royalblue;
+    background-color: pink;
     padding: 0.5em;
     padding-left: 1em;
     font-size: 1.35em;
@@ -249,6 +249,10 @@ html,body{
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+body{
+    background-image: url("../Nakajima/background.png");
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
