@@ -85,6 +85,9 @@ header p{
     border-left: solid 5px #ffaf58;
 }
 
+.contents_boxmenu img{
+}
+
 .contents_boxmenu ul,ol{
     padding: 0.1em 1em 0.1em 1.5em;
     position: relative;
