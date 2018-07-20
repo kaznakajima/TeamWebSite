@@ -1,5 +1,5 @@
 #warp{
-    width: 1060px;
+    width: 1200px;
     margin: 0px auto;
 }
 /*ページ全体の設定*/ 
@@ -16,40 +16,57 @@
 }
 /*ヘッダー*/ 
 header{
-    /*border: dashed 1px #999;
-    /*width: 100%;*/
+    float: left;
+    width: 100%;
+    background: linear-gradient(#afeeee, #ffffff);
 }
+
+#headimg{
+    background-image: url(../Kakihana/textures_ByKakihana/Rankingoo_Rogo_2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120px;
+}
+
+header p{
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
 /*左側のメニュー*/ 
 #leftnavi{
     float:left;
-    border: dashed 1px #999;
     margin-left: -100%;
     width: 200px;
-    height: 800px;
+    height: 1200px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 /*右側のメニュー*/ 
 #rightnavi{
     float:left;
-    width: 200px;
-    height: 800px;
-    border: dashed 1px #999;
-    margin-left: -202px;
+    width: 170px;
+    height: 1200px;
+    margin-left: -170px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 /*本文の設定*/ 
 #contents{
     float: left;
-    width: 640px;
-    border: dashed 1px #999;
-    margin-left: 210px;
+    width: 800px;
+    margin-left: 215px;
     margin-right: 75px;
     margin-top: 10px;
     text-align: left;
     margin-bottom: 10px;
     padding-bottom: 60px;
+    background-color: whitesmoke;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #F9F9F9), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #F9F9F9),color-stop(.75, #F9F9F9), color-stop(.75, transparent),to(transparent));
+-webkit-background-size: 7px 7px;
 }
 /*メニューボックスの設定*/ 
 .contents_boxmenu{
@@ -94,6 +111,11 @@ th{
     background: lightgray;
 }
 
+td img{
+    width: 128px;
+    height: 128px;
+}
+
 .contents_box p{
     margin: 0;
     padding: 0;
@@ -117,64 +139,80 @@ h3.headline{
 }
 /*各項目のサブタイトル*/ 
 h3.subtitle{
-    background-color: whitesmoke;
+    background-color: gainsboro;
     padding: 0.5em;
     padding-left: 1.1em;
     color: black;
 }
 
 ul#menu{
-    width: auto;
-    padding-left: 1px;
+    width: 100%;
+    padding: inherit;
+    margin: 0 auto;
+    text-align: center;
     height: 42px;
     background-color #eeeeee;
     font-weight: bold;
+    list-style-type: none;
 }
 
-li#menu01,li#menu02,li#menu03,li#menu04,li#menu05{
+li#menu01,li#menu02,li#menu03,li#menu04,li#menu05,li#menustart,li#menuend{
+    width: 100%;
     float: left;
     display: inline;
     list-style: none;
     background-repeat: no-repeat;
+    background: #668ad8;
+}
+
+li a{
+    color: #fff;
+    padding: inherit;
+	display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 240px; height: 42px;
+    border: solid;
+}
+
+li a:hover{
+    background-color: #113366;
+}
+
+li#menustart{
+}
+
+li#menuend{
+    
 }
 
 li#menu01{
-    width: 216px; height: 42px;
-    background-color: azure;
+    width: 240px; height: 42px;
 }
 
 li#menu02{
-    width: 206px; height: 42px;
-    background-color: floralwhite;
+    width: 240px; height: 42px;
 }
 
 li#menu03{
-    width: 206px; height: 42px;
-    background-color: aliceblue;
+    width: 240px; height: 42px;
 }
 
 li#menu04{
-    width: 206px; height: 42px;
-    background-color: oldlace;
+    width: 240px; height: 42px;
 }
 
 li#menu05{
-    width: 216px; height: 42px;
-    background-color: azure;
-}
-
-li#menu a{
-    display: block;
-    height: 42px; padding-top: 4px;text-align: center;
-    text-decoration: none;
+    width: 240px; height: 42px;
 }
 
 /*フッター*/ 
 footer{
     width: 100%;
     height: 60px;
+    padding-top: 30px;
     clear: both;
-    border: dashed 1px #999;
+    background-color: darkgray;
 }
 /*HTML本体の設定*/ 
 html,body{
@@ -187,9 +225,4 @@ html,body{
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 display: block;
-}
-
-p.a{
-    height 200px;
-    width 1060px;
 }

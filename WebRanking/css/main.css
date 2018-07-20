@@ -85,6 +85,9 @@ header p{
     border-left: solid 5px #ffaf58;
 }
 
+.contents_boxmenu img{
+}
+
 .contents_boxmenu ul,ol{
     padding: 0.1em 1em 0.1em 1.5em;
     position: relative;
@@ -145,6 +148,14 @@ h3.subtitle{
     color: black;
 }
 
+h2{
+    background-color: gainsboro;
+    margin: 1.0px;
+    padding: 0.5em;
+    font-size: 1.25em;
+    color: black;
+}
+
 ul#menu{
     width: 100%;
     padding: inherit;
@@ -165,7 +176,7 @@ li#menu01,li#menu02,li#menu03,li#menu04,li#menu05,li#menustart,li#menuend{
     background: #668ad8;
 }
 
-li a{
+.menubox li a{
     color: #fff;
     padding: inherit;
 	display: block;
@@ -173,6 +184,10 @@ li a{
     text-decoration: none;
     width: 240px; height: 42px;
     border: solid;
+}
+
+.box li{
+    
 }
 
 li a:hover{
